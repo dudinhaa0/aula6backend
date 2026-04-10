@@ -84,7 +84,7 @@ app.use(logger);
 // Rota raiz — útil para verificar se o servidor está no ar.
 // Acesse: http://localhost:3000
 app.get('/', (req, res) => {
-    res.json({ mensagem: '🍣 Bem-vindo à API do Sabor Encantado! (Aula 6)' });
+    res.json({ mensagem: '🍞 Bem-vindo à API do Sabor Encantado! (Aula 6)' });
 });
 
 
